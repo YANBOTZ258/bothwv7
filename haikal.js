@@ -2542,7 +2542,7 @@ if (!isAdmins) throw sticAdmin(from)
 let teks = `•══✪〘 👥 *Tag All* 〙✪══•
 ᯽⊱━•〘𝚈̲̅𝙰̲̅𝙽̲̅𝙱̲̅𝙾̲̅𝚃̲̅𝚉̲̅:̲̅𝙼̲̅𝙳̲̅〙•━⊰᯽ \nINFO: ${q ? q : 'kosong'}\n᯽⊱━•〘𝚈͟𝙰͟𝙽͟⁰͟¹͟⁷͟⁸͟²͟⁵͟¹͟⁰͟⁰͟⁴〙•━⊰᯽ \n`
                 for (let mem of participants) {
-                teks += `╭━─━─━─≪✠≫─━─━─━╮ \n│➳ @${mem.id.split('@')[0]}\n╰━─━─━─≪✠≫─━─━─━╯\n᯽⊱━•〘𝚈͟𝙰͟𝙽͟⁰͟¹͟⁷͟⁸͟²͟⁵͟¹͟⁰͟⁰͟⁴〙•━⊰᯽`
+                teks += `╭━─━─━─≪✠≫─━─━─━╮ \n│➳ @${mem.id.split('@')[0]}\n╰━─━─━─≪✠≫─━─━─━╯\n᯽⊱━•〘𝚈͟𝙰͟𝙽͟⁰͟¹͟⁷͟⁸͟²͟⁵͟¹͟⁰͟⁰͟⁴〙•━⊰᯽ `
 }
 haikal.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: hw })
 }
@@ -3471,13 +3471,13 @@ if (isRegistered) return anjay('Akun Kamu Sudah Terverfikasi!!!')
 await sendButRegis(from)
 }
 break
-case 'sound1':
+case 'yan1':
 case 'sound2':
 case 'sound3':
 case 'sound4':
 case 'sound5':
 case 'sound6':
-case 'sound7':
+case 'yan7':
 case 'sound8':
 case 'sound9':
 case 'sound10':
@@ -3495,7 +3495,7 @@ case 'sound21':
 case 'sound22':
 case 'sound23':
 case 'sound24':
-case 'sound25':
+case 'yan25':
 case 'sound26':
 case 'sound27':
 case 'sound28':
@@ -3509,8 +3509,8 @@ case 'sound35':
 case 'sound36':
 case 'sound37':
 case 'sound38':
-case 'sound39':
-case 'sound40':
+case 'yan39':
+case 'yan40':
 case 'sound41':
 case 'sound42':
 case 'sound43':
@@ -3630,7 +3630,7 @@ case 'sound156':
 case 'sound157':
 case 'sound158':
 case 'sound159':
-case 'sound160':
+case 'yan160':
 case 'sound161':
  if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
@@ -4915,13 +4915,13 @@ if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
  *[ 🌷 ] Sound Menu* 
-sound1
+yan1
 sound2
 sound3
 sound4
 sound5
 sound6
-sound7
+yan7
 sound8
 sound9
 sound10
@@ -4939,7 +4939,7 @@ sound21
 sound22
 sound23
 sound24
-sound25
+yan25
 sound26
 sound27
 sound28
@@ -4953,8 +4953,8 @@ sound35
 sound36
 sound37
 sound38
-sound39
-sound40
+yan39
+yan40
 sound41
 sound42
 sound43
@@ -5074,7 +5074,7 @@ sound156
 sound157
 sound158
 sound159
-sound160
+yan160
 sound161`,
 contextInfo:{"externalAdReply": {"title": `SC HW MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
