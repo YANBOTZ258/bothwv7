@@ -1597,7 +1597,7 @@ if (!isRegistered) return replyReg(mess.verif)
  haikal.sendMessage(m.chat, {audio: mu, mimetype: 'audio/mpeg', ptt:true }, {quoted:hw})
  }
  break
-case 'slebew': {
+case 'yanslebew': {
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
  me = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
@@ -1611,14 +1611,14 @@ if (!isRegistered) return replyReg(mess.verif)
  haikal.sendMessage(m.chat, {audio: muku, mimetype: 'audio/mpeg', ptt:true }, {quoted:hw})
  }
  break
-case 'kesel': {
+case 'yankesel': {
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
  meke = fs.readFileSync('./baseikal/sound/kesel.mp3')
  haikal.sendMessage(m.chat, {audio: meke, mimetype: 'audio/mpeg', ptt:true }, {quoted:hw})
  }
  break
-case 'ngeselin': {
+case 'yanngeselin': {
 if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
  moko = fs.readFileSync('./baseikal/sound/ngeselin.mp3')
@@ -3471,13 +3471,13 @@ if (isRegistered) return anjay('Akun Kamu Sudah Terverfikasi!!!')
 await sendButRegis(from)
 }
 break
-case 'yan1':
+case 'sound1':
 case 'sound2':
 case 'sound3':
 case 'sound4':
 case 'sound5':
 case 'sound6':
-case 'yan7':
+case 'sound7':
 case 'sound8':
 case 'sound9':
 case 'sound10':
@@ -3495,7 +3495,7 @@ case 'sound21':
 case 'sound22':
 case 'sound23':
 case 'sound24':
-case 'yan25':
+case 'sound25':
 case 'sound26':
 case 'sound27':
 case 'sound28':
@@ -3509,8 +3509,8 @@ case 'sound35':
 case 'sound36':
 case 'sound37':
 case 'sound38':
-case 'yan39':
-case 'yan40':
+case 'sound39':
+case 'sound40':
 case 'sound41':
 case 'sound42':
 case 'sound43':
@@ -3630,7 +3630,7 @@ case 'sound156':
 case 'sound157':
 case 'sound158':
 case 'sound159':
-case 'yan160':
+case 'sound160':
 case 'sound161':
  if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
@@ -4324,7 +4324,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `◎ Owner : ${botname}
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 *NOTE*
 🌷
-contact me Wa.me/6285714170944
+contact me Wa.me/60178251004
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 Base Script
 ©Haikal`, contextInfo:{"externalAdReply": {"title": `SC HW MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
@@ -4915,13 +4915,13 @@ if (isBan) throw sticBanLu(from)
 if (!isRegistered) return replyReg(mess.verif)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
  *[ 🌷 ] Sound Menu* 
-yan1
+sound1
 sound2
 sound3
 sound4
 sound5
 sound6
-yan7
+sound7
 sound8
 sound9
 sound10
@@ -4939,7 +4939,7 @@ sound21
 sound22
 sound23
 sound24
-yan25
+sound25
 sound26
 sound27
 sound28
@@ -4953,8 +4953,8 @@ sound35
 sound36
 sound37
 sound38
-yan39
-yan40
+sound39
+sound40
 sound41
 sound42
 sound43
@@ -5074,7 +5074,7 @@ sound156
 sound157
 sound158
 sound159
-yan160
+sound160
 sound161`,
 contextInfo:{"externalAdReply": {"title": `SC HW MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
