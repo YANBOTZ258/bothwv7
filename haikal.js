@@ -154,15 +154,15 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "" } : {})
 //=================================================//
 //=================================================//
 const bal= (teks) => {
-haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `HW MODS WA ${ngazap(prefix)}`,"body": `HW MODS WA ${ngazap(prefix)}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: doc })
+haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `ᥬ🤫᭄🌷+60178251004★᭄✿ ${ngazap(prefix)}`,"body": `ᥬ🤫᭄🌷+60178251004★᭄✿ ${ngazap(prefix)}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: doc })
 } 
 // Target
 const reply = (teks) => {
-return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `SC HW MODS WA`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: hw })
+return haikal.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": `ᥬ🤫᭄🌷+60178251004★᭄✿`,"body": `Selamat ${salam} kak ${pushname}`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": kalimage,"sourceUrl": `https://youtube.com/c/HwModsWa857`}}}, { quoted: hw })
 } 
 
 const anjay = (teks) => {
- haikal.sendMessage(m.chat, { image: kalimage, caption: teks, contextInfo:{"externalAdReply": {"title": `SC HW MODS WA`,"body": `Selamat ${salam} kak ${pushname}`,
+ haikal.sendMessage(m.chat, { image: kalimage, caption: teks, contextInfo:{"externalAdReply": {"title": `ᥬ🤫᭄🌷+60178251004★᭄✿`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
